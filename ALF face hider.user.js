@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         ALF Face remover
+// @name         ALF Face Hider
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Hides your face in our favorite learning platform
@@ -22,8 +22,8 @@ function getID (jNode) {
 
 
 function removeFromStage (jNode) {
-    $('div[data-user-id="763"]').children().css("opacity", 0);
-    $('div[data-user-id="763"]').css("background-color", '#284169');
+    $('div[data-user-id="' + userID + '"]').children().css("opacity", 0);
+    $('div[data-user-id="' + userID + '"]').css("background-color", '#284169');
 }
 
 
