@@ -23,7 +23,7 @@ function getID (jNode) {
 
 function removeFromStage (jNode) {
     $('div[data-user-id="763"]').children().css("opacity", 0);
-    $('div[data-user-id="763"]').css("background-color", '#4168A9');
+    $('div[data-user-id="763"]').css("background-color", '#284169');
 }
 
 
