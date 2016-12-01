@@ -5,7 +5,7 @@
 // @description  Hides your face in our favorite learning platform
 // @author       Mark Estefanos
 // @require      https://gist.github.com/raw/2625891/waitForKeyElements.js
-// @match        https://seminar.minerva.kgi.edu/app/classes/*
+// @match        https://seminar.minerva.kgi.edu/app/*
 // @grant        none
 // ==/UserScript==
 
