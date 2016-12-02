@@ -1,6 +1,8 @@
 // ==UserScript==
 // @name         ALF Face Hider
 // @namespace    http://tampermonkey.net/
+// @updateURL    https://github.com/MarkEstefanos/ALF-Face-hider/raw/master/ALF%20face%20hider.user.js
+// @downloadURL  https://github.com/MarkEstefanos/ALF-Face-hider/raw/master/ALF%20face%20hider.user.js
 // @version      0.1
 // @description  Hides your face in our favorite learning platform
 // @author       Mark Estefanos
