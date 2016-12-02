@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @updateURL    https://github.com/MarkEstefanos/ALF-Face-hider/raw/master/ALF%20face%20hider.user.js
 // @downloadURL  https://github.com/MarkEstefanos/ALF-Face-hider/raw/master/ALF%20face%20hider.user.js
-// @version      0.1
+// @version      0.1.1
 // @description  Hides your face in our favorite learning platform
 // @author       Mark Estefanos
 // @require      https://gist.github.com/raw/2625891/waitForKeyElements.js
