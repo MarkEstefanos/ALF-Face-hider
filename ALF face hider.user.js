@@ -22,7 +22,12 @@ function getID (jNode) {
 
 
 function removeFromStage (jNode) {
-    $('div[data-user-id="' + userID + '"]').children().css("opacity", 0);
+    $('div[data-user-id="' + userID + '"]').children().css("opacity", 0.01);
+    $('div[data-user-id="' + userID + '"]').children().hover(function(){
+        $(this).css("opacity", 1);
+    }, function(){
+        $(this).css("opacity", 0.01);
+    });
     $('div[data-user-id="' + userID + '"]').css("background-color", '#284169');
 }
 
